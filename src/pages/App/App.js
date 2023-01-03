@@ -2,6 +2,9 @@ import { useState, useEffect } from "react";
 import AuthPage from "../AuthPage/AuthPage";
 import BagsPage from "../BagsPage/BagsPage";
 import { Routes, Route} from 'react-router-dom';
+import NavBar from "../../components/NavBar/NavBar";
+import GamePage from "../GamePage/GamePage";
+import MusicPage from "../MusicPage/MusicPage";
 
 function App() {
   const [state, setState] = useState(null)
@@ -26,12 +29,15 @@ function App() {
       {
         user ?
         <>
-        <Routes>
-          <Route path="/bags" element={<BagsPage />} />
-        </Routes>
+          <NavBar />
+          <Routes>
+            <Route path="/pokebags" element={<BagsPage />} />
+            <Route path="/games" element={<GamePage />} />
+            <Route path="/music" element={<MusicPage />} />
+          </Routes>
         </>
-        :
-        <AuthPage setUser={setUser} />
+         :
+        <AuthPage setUser={setUser}/>
       }
     </main>
   );
