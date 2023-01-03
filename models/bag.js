@@ -1,9 +1,8 @@
 const {Schema, model} = require('mongoose')
 
-const bagSchema = new Schema({
-    pokemon: String, 
+const bagSchema = new Schema({ 
     items: String, 
-    balls: String, 
+    pokeBalls: String, 
     keyItems: String, 
     medicine: String, 
     berries: String 
