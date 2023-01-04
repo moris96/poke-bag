@@ -5,8 +5,6 @@ export default function NavBar() {
         <nav>
             <Link to="/games">Game Page</Link>
             &nbsp; | &nbsp;
-            <Link to="/music">Music Page</Link>
-            &nbsp; | &nbsp;
             <Link to="/pokebags">Pokebag Page</Link>
             &nbsp; | &nbsp;
             <Link to="/">Pokedex Page</Link>

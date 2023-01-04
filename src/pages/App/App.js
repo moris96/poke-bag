@@ -4,7 +4,6 @@ import BagsPage from "../BagsPage/BagsPage";
 import { Routes, Route} from 'react-router-dom';
 import NavBar from "../../components/NavBar/NavBar";
 import GamePage from "../GamePage/GamePage";
-import MusicPage from "../MusicPage/MusicPage";
 import PokedexPage from "../PokedexPage/PokedexPage";
 
 function App() {
@@ -34,7 +33,6 @@ function App() {
           <Routes>
             <Route path="/pokebags" element={<BagsPage />} />
             <Route path="/games" element={<GamePage />} />
-            <Route path="/music" element={<MusicPage />} />
             <Route path="/" element={<PokedexPage />} />
           </Routes>
         </>
