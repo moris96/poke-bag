@@ -1,6 +1,5 @@
 import Card from './Card';
 import PokeInfo from "./PokeInfo";
-import "./pokedex.css"
 import axios from "axios";
 import { useState, useEffect } from "react";
 
