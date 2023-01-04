@@ -28,7 +28,7 @@ export default function PokedexPage(){
             const result = await axios.get(i.url)
             setPokeData(state => {
                 state = [...state, result.data]
-                state.sort((a,b) => a.id>b.id ? 1: -1)
+                state.sort((a,b) => a.id>b.id ? 1 : -1)
                 return state 
             })
         })

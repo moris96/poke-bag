@@ -1,5 +1,11 @@
 
-
-export default function GamePage(props) {
-    return <h1>Game Page</h1>
+export default function GamePage() {
+    
+    
+    
+    
+    
+    return(
+        <h1>Game Page</h1>
+    )
 }
