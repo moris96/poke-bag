@@ -66,6 +66,8 @@ export default function GamePage() {
     };
         
     return(
+        <>
+        <h1 className="testing-game">Test your knowledge of Pokemon to sharpen your skills as a master!</h1>
         <div className='game'>
 			{showScore ? (
 				<div className='score-section'>
@@ -87,5 +89,6 @@ export default function GamePage() {
 				</>
 			)}
 		</div>
+        </>
     )
 };

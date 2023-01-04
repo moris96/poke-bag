@@ -10,7 +10,7 @@ button {
 }
 
 body{
-    background-color: #FCEEC8;
+    background-color: lightsalmon;
 } 
 
 .container{
@@ -65,7 +65,7 @@ body{
     margin-top: 1rem;
 }
 .abilities .group{
-    background-color: salmon;
+    background-color: coral;
     color: black;
     padding: 0.5rem;
     font-size: 12px;
@@ -87,7 +87,7 @@ body{
     font-size: 17px;
     font-weight: bold;
     color: black;
-    background-color: salmon;
+    background-color: coral;
     border-radius: 8px;
 }
 
@@ -100,6 +100,9 @@ body{
     box-shadow: 10px 10px 42px 0px rgba(0, 0, 0, 0.75);
     display: flex;
     justify-content: space-evenly;
+    position: relative;
+    left: 700px;
+    top: 50px;
 }
 
 .score-section {
@@ -145,14 +148,14 @@ body{
 button {
     width: 100%;
     font-size: 16px;
-    color: #ffffff;
-    background-color: #252d4a;
+    color: ghostwhite;
+    background-color: navy;
     border-radius: 15px;
     display: flex;
     padding: 5px;
     justify-content: flex-start;
     align-items: center;
-    border: 5px solid #234668;
+    border: 5px solid #dcf3ff;
     cursor: pointer;
 }
   
@@ -174,4 +177,13 @@ button:focus {
   
 button svg {
     margin-right: 5px;
+}
+
+.testing-game {
+    color: black;
+    text-align: center;
+}
+
+nav {
+    text-align: center;
 }
