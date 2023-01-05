@@ -4,8 +4,7 @@ const bagSchema = new Schema({
     items: String, 
     pokeBalls: String, 
     keyItems: String, 
-    medicine: String, 
-    berries: String 
+    hasAllBadges: Boolean
 }, {
     timestamps:true 
 })

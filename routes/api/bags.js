@@ -3,15 +3,15 @@ const router = express.Router()
 const { dataController, apiController } = require('../../controllers/api/bags')
 
 //add routes 
-//Index /api/bags 
+//Index /api/pokebags 
 router.get('/', dataController.index, apiController.index)
-//Delete /api/bags/:id
+//Delete /api/pokebags/:id
 router.delete('/:id', dataController.destroy, apiController.show)
-// Update /api/bags/:id
+// Update /api/pokebags/:id
 router.put('/:id', dataController.update, apiController.show)
-// Create /api/bags 
+// Create /api/pokebags 
 router.post('/', dataController.create, apiController.show)
-// Show /api/bags/:id
+// Show /api/pokebags/:id
 router.get('/:id', dataController.show, apiController.show)
 
 module.exports = router 
