@@ -5,6 +5,10 @@
     font-weight: lighter;
 }
 
+.dex {
+    text-align: center;
+}
+
 button {
     font-family: 'Sigmar One', sans-serif;
 }

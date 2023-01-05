@@ -39,6 +39,7 @@ export default function PokedexPage(){
     
     return(
         <>
+            <h1 className='dex'>Pokedex</h1>
             <div className="container">
                 <div className="left-content">
                     <Card pokemon={pokeData} loading={loading} infoPoke={poke=>setPokeDex(poke)} />
