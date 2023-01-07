@@ -5,7 +5,7 @@
 ---
 
 ## Getting Started: 
-add heroku link here . You might have to wait a minute or two for Heroku to warmup depending on your internet speed... 
+[clickMe!](https://poke-bag.herokuapp.com/) . You might have to wait a minute or two for Heroku to warmup depending on your internet speed... 
 
 ---
 
